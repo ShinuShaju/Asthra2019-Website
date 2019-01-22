@@ -25,6 +25,9 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
+		<link rel="stylesheet" href="css/normalize.min.css" />
+		<link rel="stylesheet" href="css/animate.min.css" />
+
 		<script>
 			document.documentElement.className = 'js';
 			var supportsCssVars = function() {
@@ -87,419 +90,311 @@
 
 				</a>
 
-				<!--<center><div class="mouse"><span></span></div></center>-->
-
-				<!--<div class="deco deco--title">2017 Westland Exhibition Center</div>-->
 			</div>
 			<div class="container">
-			<div class="content-wrap">
-			<a href="#openModal">
-			<div class="content content--layout content--layout-1" >
-				<img class="content__img" src="img/workshops/es.jpg" alt="Some image" />
-					<h3 class="content__title2">embedded systems</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-		<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
-			</div>
-		  </a>
-		 </div>
-<!--Modal Box-->
-		<div id="openModal" class="modalbg">
-		  <div class="dialog">
-		    <a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #1</h4>
-				<h1>Embedded Systems</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--MORE DETAILS-->
-				<!--<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>-->
-		  </div>
-		</div>
-<!--Ends here-->
+
+				<div class="content-wrap">
+					<a id="demo01" href="#animatedModal1">
+						<div class="content content--layout content--layout-1" >
+							<img class="content__img" src="img/workshops/es.jpg" alt="Some image" />
+							<h3 class="content__title2">embedded systems</h3>
+						</div>
+				  </a>
+			 </div>
+			 <!--DEMO01-->
+			 <div id="animatedModal1">
+					 <div  id="btn-close-modal" class="close-animatedModal1">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					 </div>
+
+					 <div class="modal-content">
+							 <h4>WORKSHOP #1</h4>
+							 <h1>Embedded Systems</h1>
+							 <p>Embedded systems are a combination of hardware and software where software is usually known as firmware that is embedded into the hardware.
+								  One of its most important characteristics of these systems is, it gives the o/p within the time limits. Embedded systems support to make the
+								 	work more perfect and convenient.
+								</p>
+								<h4>Date : February 07, 2019</h4>
+								<h4 class="c-header">CONTACT DETAILS</h4>
+								<h5 class="contact"><span>Full Name : +91 0000000000&emsp;<br class="hide-break">Full Name : +91 0000000000&emsp;</span></h5>
+								<h4 class="c-header">REGISTRATION DETAILS</h4>
+								<h5 class="contact"><span>Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</span></h5>
+								<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
+					 </div>
+			 </div>
+
 
 			<div class="content-wrap">
-			<a href="#openModal2">
-			<div class="content content--layout content--layout-2" >
-				<img class="content__img" src="img/workshops/drone.jpg" alt="Some image" />
-					<h3 class="content__title2">Drone</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a id="demo02" href="#animatedModal2">
+					<div class="content content--layout content--layout-2" >
+						<img class="content__img" src="img/workshops/drone.jpg" alt="Some image" />
+						<h3 class="content__title2">Drone</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal2" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #2</h4>
-				<h1>Drone Workshop</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+
+			<!--DEMO02-->
+			<div id="animatedModal2">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal2">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #2</h4>
+						<h1>Drone Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 
 			<div class="content-wrap">
-			<a href="#openModal3">
-			<div class="content content--layout content--layout-1" >
-				<img class="content__img" src="img/workshops/aircraft.jpg" alt="Some image" />
-					<h3 class="content__title2">Aircraft modelling</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a id="demo03" href="#animatedModal3">
+					<div class="content content--layout content--layout-1" >
+						<img class="content__img" src="img/workshops/aircraft.jpg" alt="Some image" />
+						<h3 class="content__title2">Aircraft modelling</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal3" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #3</h4>
-				<h1>Aircraft modelling</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+
+			<!--DEMO03-->
+			<div id="animatedModal3">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal3">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #3</h4>
+						<h1>Aircraft Modelling Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal4">
-			<div class="content content--layout content--layout-2" >
-				<img class="content__img" src="img/workshops/bike.jpg" alt="Some image" />
-					<h3 class="content__title2">BIKE ASSEMBLY</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a id="demo04" href="#animatedModal4">
+					<div class="content content--layout content--layout-2" >
+						<img class="content__img" src="img/workshops/bike.jpg" alt="Some image" />
+						<h3 class="content__title2">BIKE ASSEMBLY</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal4" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #4</h4>
-				<h1>Bike Assembly</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+
+			<!--DEMO04-->
+			<div id="animatedModal4">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal4">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #4</h4>
+						<h1>Bike Assembly Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal5">
-			<div class="content content--layout content--layout-1" >
-				<img class="content__img" src="img/workshops/ksum.jpg" alt="Some image" />
-					<h3 class="content__title2">KSUM-STARTUP</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a  id="demo05" href="#animatedModal5">
+					<div class="content content--layout content--layout-1" >
+						<img class="content__img" src="img/workshops/ksum.jpg" alt="Some image" />
+						<h3 class="content__title2">KSUM-STARTUP</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal5" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #5</h4>
-				<h1>KSUM-Startup Workshop</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+
+			<!--DEMO05-->
+			<div id="animatedModal5">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal5">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #5</h4>
+						<h1>KSUM-Startup Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal6">
-			<div class="content content--layout content--layout-2" >
-				<img class="content__img" src="img/workshops/ml.jpg" alt="Some image" />
-					<h3 class="content__title2">TINKERHUB- ML & AI</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a id="demo06" href="#animatedModal6">
+					<div class="content content--layout content--layout-2" >
+						<img class="content__img" src="img/workshops/ml.jpg" alt="Some image" />
+						<h3 class="content__title2">TINKERHUB- ML & AI</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal6" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #6</h4>
-				<h1>Tinkerhub- ML&AI Workshops</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
 
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+			<!--DEMO06-->
+			<div id="animatedModal6">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal6">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #6</h4>
+						<h1>Tinkerhub - ML & AI Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal7">
-			<div class="content content--layout content--layout-1" >
-				<img class="content__img" src="img/workshops/wikihow.jpg" alt="Some image" />
-					<h3 class="content__title2">WIKI HOW</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a  id="demo07" href="#animatedModal7">
+					<div class="content content--layout content--layout-1" >
+						<img class="content__img" src="img/workshops/wikihow.jpg" alt="Some image" />
+						<h3 class="content__title2">WIKI HOW</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal7" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #7</h4>
-				<h1>Wiki How (Wikipedia) Workshop</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+
+			<!--DEMO07-->
+			<div id="animatedModal7">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal7">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #7</h4>
+						<h1>Wiki How (From Wikipedia) Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal8">
-			<div class="content content--layout content--layout-2" >
-				<img class="content__img" src="img/workshops/gdg.jpg" alt="Some image" />
-					<h3 class="content__title2">GOOGLE DEVELOPERS</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a  id="demo08" href="#animatedModal8">
+					<div class="content content--layout content--layout-2" >
+						<img class="content__img" src="img/workshops/gdg.jpg" alt="Some image" />
+						<h3 class="content__title2">GOOGLE DEVELOPERS</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal8" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #8</h4>
-				<h1>Google Developers Workshop</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
 
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+			<!--DEMO08-->
+			<div id="animatedModal8">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal8">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #8</h4>
+						<h1>Google Developers Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal9">
-			<div class="content content--layout content--layout-1" >
-				<img class="content__img" src="img/workshops/fablab.jpg" alt="Some image" />
-					<h3 class="content__title2">CREATIVE DESIGN</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a  id="demo09" href="#animatedModal9">
+					<div class="content content--layout content--layout-1" >
+						<img class="content__img" src="img/workshops/fablab.jpg" alt="Some image" />
+						<h3 class="content__title2">CREATIVE DESIGN</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal9" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #9</h4>
-				<h1>Fablab - Creative Design Workshop</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+
+			<!--DEMO08-->
+			<div id="animatedModal9">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal9">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #9</h4>
+						<h1>Fablab - Creative Design Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal10">
-			<div class="content content--layout content--layout-2" >
-				<img class="content__img" src="img/workshops/ducati.jpg" alt="Some image" />
-					<h3 class="content__title2"> DUCATI<br>BIKE </h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a  id="demo10" href="#animatedModal10">
+					<div class="content content--layout content--layout-2" >
+						<img class="content__img" src="img/workshops/ducati.jpg" alt="Some image" />
+						<h3 class="content__title2"> DUCATI<br>BIKE </h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal10" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #10</h4>
-				<h1> Ducati Bike Workshop</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-			</div>
+
+			<!--DEMO10-->
+			<div id="animatedModal10">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal10">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #10</h4>
+						<h1>Ducati Bike Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 			<div class="content-wrap">
-			<a href="#openModal11">
-			<div class="content content--layout content--layout-1" >
-				<img class="content__img" src="img/workshops/vfx.jpg" alt="Some image" />
-					<h3 class="content__title2">visual effects (VFX)</h3>
-					<!--<p class="content__author">Gregory Mourisha</p>-->
-					<!--<p class="content__desc2">More Details</p>-->
-			<!--<a class="content__link"  href="#openModal">Registration Details</a>-->
+				<a id="demo11" href="#animatedModal11">
+					<div class="content content--layout content--layout-1" >
+						<img class="content__img" src="img/workshops/vfx.jpg" alt="Some image" />
+						<h3 class="content__title2">visual effects (VFX)</h3>
+					</div>
+				</a>
 			</div>
-			</a>
-			</div>
-			<!--Modal Box-->
-			<div id="openModal11" class="modalbg">
-			<div class="dialog">
-				<a href="#close" title="Close" class="close"><svg class="svg-icon" viewBox="0 0 20 20">
-							<path fill="none" d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08
-							c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469
-							c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304
-							c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
-						</svg></a>
-				<p class="workshop-box">
-				<h4>WORKSHOP #11</h4>
-				<h1>Visual Effects (VFX) Workshop</h1>
-				<p class="workshop-info">Details will be updated soon. Stay Tuned!!!</p>
-				</p>
-				<!--
-				<h4>Date : February 07, 2019</h4>
-				<h4>Contact Details</h4>
-				<div class="workshop-info">Full Name - +91 0000000000&emsp;<br class="hide-break">Full Name - +91 0000000000&emsp; </div>
-				<h4>Registration Details</h4>
-				<div class="workshop-info">Starts On : January 25, 2019&emsp;<br class="hide-break">Ends On : February 06, 2019&emsp;</div>
-					<a href="#" class="fancy-button bg-gradient1"><span><i class="fa fa-ticket"></i> Register</span></a>
-				-->
-				<center><img src="img/smile.svg" alt="SVG" style="height:170px;margin-top:100px;"></center>
-			</div>
+
+			<!--DEMO11-->
+			<div id="animatedModal11">
+					<!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+					<div  id="btn-close-modal" class="close-animatedModal11">
+						<svg class="svg-icon" viewBox="0 0 20 20">
+						<path fill="none" d="M12.71,7.291c-0.15-0.15-0.393-0.15-0.542,0L10,9.458L7.833,7.291c-0.15-0.15-0.392-0.15-0.542,0c-0.149,0.149-0.149,0.392,0,0.541L9.458,10l-2.168,2.167c-0.149,0.15-0.149,0.393,0,0.542c0.15,0.149,0.392,0.149,0.542,0L10,10.542l2.168,2.167c0.149,0.149,0.392,0.149,0.542,0c0.148-0.149,0.148-0.392,0-0.542L10.542,10l2.168-2.168C12.858,7.683,12.858,7.44,12.71,7.291z M10,1.188c-4.867,0-8.812,3.946-8.812,8.812c0,4.867,3.945,8.812,8.812,8.812s8.812-3.945,8.812-8.812C18.812,5.133,14.867,1.188,10,1.188z M10,18.046c-4.444,0-8.046-3.603-8.046-8.046c0-4.444,3.603-8.046,8.046-8.046c4.443,0,8.046,3.602,8.046,8.046C18.046,14.443,14.443,18.046,10,18.046z"></path>
+						</svg>
+					</div>
+
+					<div class="modal-content">
+						<h4>WORKSHOP #11</h4>
+						<h1>Visual Effects (VFX) Workshop</h1>
+						<p>Details will be updated soon. Stay Tuned!!!</p>
+						</p>
+						<center><img src="img/smile2.svg" alt="SVG" style="height:170px;margin-top:100px;opacity:0.8"></center>
+					</div>
 			</div>
 
 		</div>
@@ -512,7 +407,21 @@
 		<script src="js/anime.min.js"></script>
 		<script src="js/scrollMonitor.js"></script>
 		<script src="js/demo1.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/animatedModal.js"></script>
+
+		<!--Initialize Modal Box-->
+		<script>  $("#demo01").animatedModal();</script>
+		<script>  $("#demo02").animatedModal();</script>
+		<script>  $("#demo03").animatedModal();</script>
+		<script>  $("#demo04").animatedModal();</script>
+		<script>  $("#demo05").animatedModal();</script>
+		<script>  $("#demo06").animatedModal();</script>
+		<script>  $("#demo07").animatedModal();</script>
+		<script>  $("#demo08").animatedModal();</script>
+		<script>  $("#demo09").animatedModal();</script>
+		<script>  $("#demo10").animatedModal();</script>
+		<script>  $("#demo11").animatedModal();</script>
 
 	</body>
 </html>
